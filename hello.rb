@@ -5,5 +5,5 @@ get '/' do
 end
 
 get '/:name' do
-	"Hello #{params[:name]!!"
+	"Hello #{params[:name]}!!"
 end
